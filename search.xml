@@ -126,6 +126,390 @@
       </tags>
   </entry>
   <entry>
+    <title>Internet Explorer 11：一个时代的终结与传承</title>
+    <url>/2026/06/06/IE11/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>Internet Explorer 11（简称IE11）作为微软IE系列浏览器的<strong>最后一个主要版本</strong>，于2013年10月17日随Windows 8.1正式发布，随后于11月7日发布给Windows 7和Windows Server 2008 R2用户。</p>
+<p>作为微软浏览器发展史上的重要里程碑，IE11不仅承载了微软在浏览器领域的技术积累，也标志着一个时代的结束。</p>
+<hr>
+<h2 id="IE11的技术特性与改进"><a href="#IE11的技术特性与改进" class="headerlink" title="IE11的技术特性与改进"></a>IE11的技术特性与改进</h2><h3 id="⚡-性能提升"><a href="#⚡-性能提升" class="headerlink" title="⚡ 性能提升"></a>⚡ 性能提升</h3><p>IE11在性能方面进行了显著改进，引入了多项创新技术：</p>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>GPU加速图像解码</strong></td>
+<td>IE11是第一个能够通过GPU以本机方式实时对JPG图像进行解码的浏览器，使页面加载速度更快、内存占用更少</td>
+</tr>
+<tr>
+<td><strong>GPU文本渲染</strong></td>
+<td>IE11是第一个通过GPU呈现文本的浏览器，大大提升了文本显示的质量和性能</td>
+</tr>
+<tr>
+<td><strong>JavaScript引擎优化</strong></td>
+<td>Chakra JavaScript引擎性能得到新提升，JIT编译器支持更多优化项</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>💡 <strong>亮点</strong>：这些创新技术使得IE11在性能方面达到了当时浏览器的前沿水平。</p>
+</blockquote>
+<hr>
+<h3 id="🛠️-现代Web标准支持"><a href="#🛠️-现代Web标准支持" class="headerlink" title="🛠️ 现代Web标准支持"></a>🛠️ 现代Web标准支持</h3><p>IE11在对现代Web标准的支持方面取得了长足进步：</p>
+<table>
+<thead>
+<tr>
+<th>Web标准</th>
+<th>支持情况</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>HTML5</strong></td>
+<td>对HTML5的支持较为全面，大部分标签和API得以实现</td>
+</tr>
+<tr>
+<td><strong>CSS3</strong></td>
+<td>CSS3的很多新特性被支持，相比前代版本有显著改善</td>
+</tr>
+<tr>
+<td><strong>WebGL</strong></td>
+<td>增加对WebGL的支持，为HTML5 Canvas提供硬件3D加速渲染</td>
+</tr>
+<tr>
+<td><strong>HTTP&#x2F;2</strong></td>
+<td>在Win10技术预览版中获得HTTP&#x2F;2网络协议支持</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>🔥 <strong>WebGL支持</strong>：这是3D绘图标准，允许把JavaScript和OpenGL ES 2.0结合在一起。</p>
+</blockquote>
+<hr>
+<h3 id="🔒-安全性改进"><a href="#🔒-安全性改进" class="headerlink" title="🔒 安全性改进"></a>🔒 安全性改进</h3><p>IE11在安全性方面也进行了多项改进：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">✅ 增强的ActiveX过滤</span><br><span class="line">✅ 跨站脚本（XSS）攻击防护</span><br><span class="line">✅ 默认开启TLS 1.2</span><br><span class="line">✅ 增强保护模式</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="IE11的系统兼容性"><a href="#IE11的系统兼容性" class="headerlink" title="IE11的系统兼容性"></a>IE11的系统兼容性</h2><h3 id="🖥️-支持的操作系统"><a href="#🖥️-支持的操作系统" class="headerlink" title="🖥️ 支持的操作系统"></a>🖥️ 支持的操作系统</h3><p>IE11主要支持以下操作系统：</p>
+<table>
+<thead>
+<tr>
+<th>操作系统</th>
+<th>支持状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Windows 7 SP1（包括ESU）</td>
+<td>✅ 支持</td>
+</tr>
+<tr>
+<td>Windows 8.1</td>
+<td>✅ 支持</td>
+</tr>
+<tr>
+<td>Windows 10（32位和64位）</td>
+<td>✅ 支持</td>
+</tr>
+<tr>
+<td>Windows Server 2012 R2</td>
+<td>✅ 支持</td>
+</tr>
+<tr>
+<td>Windows Server 2016&#x2F;2019</td>
+<td>✅ 支持</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="📦-32位与64位版本"><a href="#📦-32位与64位版本" class="headerlink" title="📦 32位与64位版本"></a>📦 32位与64位版本</h3><p>IE11为不同的Windows平台提供了32位和64位的版本：</p>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>特点</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>32位版本</strong></td>
+<td>与较旧的Windows系统兼容性更好</td>
+<td>传统应用环境</td>
+</tr>
+<tr>
+<td><strong>64位版本</strong></td>
+<td>为现代硬件提供更好的性能，能利用更多内存</td>
+<td>加载大量资源的网页</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="💻-系统要求"><a href="#💻-系统要求" class="headerlink" title="💻 系统要求"></a>💻 系统要求</h3><table>
+<thead>
+<tr>
+<th>组件</th>
+<th>要求</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>计算机&#x2F;处理器</strong></td>
+<td>配备 233 MHz 处理器或更高频率的处理器（推荐 Pentium 处理器）的计算机</td>
+</tr>
+<tr>
+<td><strong>内存</strong></td>
+<td>512 MB</td>
+</tr>
+<tr>
+<td><strong>硬盘空间</strong></td>
+<td>70 MB</td>
+</tr>
+<tr>
+<td><strong>显示</strong></td>
+<td>超级 VGA (800 x 600) 或分辨率更高的 256 色显示器</td>
+</tr>
+<tr>
+<td><strong>外设</strong></td>
+<td>调制解调器或 Internet 连接；Microsoft Mouse、Microsoft IntelliMouse 或兼容的指针设备</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="IE11的历史地位"><a href="#IE11的历史地位" class="headerlink" title="IE11的历史地位"></a>IE11的历史地位</h2><h3 id="📊-浏览器市场的兴衰"><a href="#📊-浏览器市场的兴衰" class="headerlink" title="📊 浏览器市场的兴衰"></a>📊 浏览器市场的兴衰</h3><p>IE浏览器的发展历程反映了整个浏览器市场的变迁：</p>
+<table>
+<thead>
+<tr>
+<th>时期</th>
+<th>市场份额</th>
+<th>主要事件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1995-2000年代</strong></td>
+<td>超过90%（1999年巅峰）</td>
+<td>通过捆绑Windows操作系统迅速占领市场</td>
+</tr>
+<tr>
+<td><strong>2000年代后期</strong></td>
+<td>开始下降</td>
+<td>Firefox、Chrome等浏览器崛起</td>
+</tr>
+<tr>
+<td><strong>2010年代</strong></td>
+<td>逐渐失去领先地位</td>
+<td>微软开始转向Edge浏览器</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="🏁-IE11作为传统浏览器的终结者"><a href="#🏁-IE11作为传统浏览器的终结者" class="headerlink" title="🏁 IE11作为传统浏览器的终结者"></a>🏁 IE11作为传统浏览器的终结者</h3><p>IE11标志着微软传统IE浏览器时代的结束：</p>
+<blockquote>
+<p>⏹️ <strong>重要里程碑</strong>：</p>
+<ul>
+<li>它是最后一个与Windows桌面操作系统深度集成的IE版本</li>
+<li>它对网络技术的支持达到了IE系列的新水平</li>
+<li>它为特定用户群体（特别是企业环境）提供了重要的兼容性支持</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="IE11的停用与影响"><a href="#IE11的停用与影响" class="headerlink" title="IE11的停用与影响"></a>IE11的停用与影响</h2><h3 id="⏰-停用时间表"><a href="#⏰-停用时间表" class="headerlink" title="⏰ 停用时间表"></a>⏰ 停用时间表</h3><p>微软逐步淘汰IE11的时间表：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>事件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2015年3月</td>
+<td>微软确认将放弃IE品牌，主推Edge浏览器</td>
+</tr>
+<tr>
+<td>2020年8月</td>
+<td>Microsoft Teams Web停止支持IE11</td>
+</tr>
+<tr>
+<td>2021年8月</td>
+<td>Microsoft 365停止支持IE11</td>
+</tr>
+<tr>
+<td>2021年10月</td>
+<td>谷歌搜索正式不再支持IE11</td>
+</tr>
+<tr>
+<td><strong>2022年6月15日</strong></td>
+<td><strong>Internet Explorer 11桌面应用程序正式停用</strong></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>⚠️ <strong>重要提示</strong>：如果您要访问的任何网站需要使用 Internet Explorer，您可以使用 Microsoft Edge 中的 <strong>IE模式</strong> 重新加载该网站。Microsoft Edge 是 Microsoft 推荐的浏览器。</p>
+</blockquote>
+<hr>
+<h3 id="🔄-IE-Mode的延续"><a href="#🔄-IE-Mode的延续" class="headerlink" title="🔄 IE Mode的延续"></a>🔄 IE Mode的延续</h3><p>虽然IE11被停用，但微软通过IE Mode功能在Edge浏览器中保留了IE11的部分技术：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">📌 IE Mode 使 Edge 浏览器能够使用 Internet Explorer 11 的 Trident 布局引擎</span><br><span class="line">📌 微软已宣布支持 IE Mode 至少到 2029 年</span><br><span class="line">📌 这为企业用户提供了过渡期，确保旧有应用的兼容性</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="IE11的遗产与影响"><a href="#IE11的遗产与影响" class="headerlink" title="IE11的遗产与影响"></a>IE11的遗产与影响</h2><h3 id="🏆-对Web标准的贡献"><a href="#🏆-对Web标准的贡献" class="headerlink" title="🏆 对Web标准的贡献"></a>🏆 对Web标准的贡献</h3><p>IE11在推动Web标准发展方面发挥了重要作用：</p>
+<ul>
+<li>✅ 促进了HTML5、CSS3等现代Web标准的普及</li>
+<li>✅ 推动了浏览器性能优化技术的发展</li>
+<li>✅ 为WebGL等新技术的标准化做出了贡献</li>
+</ul>
+<hr>
+<h3 id="🏢-企业环境中的持续影响"><a href="#🏢-企业环境中的持续影响" class="headerlink" title="🏢 企业环境中的持续影响"></a>🏢 企业环境中的持续影响</h3><p>尽管IE11已被停用，但它在企业环境中仍具有重要影响：</p>
+<table>
+<thead>
+<tr>
+<th>影响领域</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>企业应用</td>
+<td>许多企业应用仍依赖于IE11的兼容性</td>
+</tr>
+<tr>
+<td>过渡方案</td>
+<td>IE Mode为企业提供了平滑过渡的解决方案</td>
+</tr>
+<tr>
+<td>技术遗产</td>
+<td>IE11的技术遗产继续影响着现代浏览器的发展</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><blockquote>
+<p>📝 <strong>总结</strong>：Internet Explorer 11作为微软IE系列浏览器的最后一个主要版本，承载了一个时代的浏览器技术发展历程。它在性能、安全性、兼容性等方面的改进，为当时的用户提供了更好的浏览体验。</p>
+</blockquote>
+<p>虽然IE11已被停用，但通过IE Mode等功能，它的技术遗产仍在继续发挥作用。IE11的兴衰历程也反映了整个浏览器行业的发展趋势：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">📱 从技术竞争到标准统一</span><br><span class="line">📱 从桌面主导到移动优先</span><br><span class="line">📱 从单一功能到生态整合</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><blockquote>
+<p><strong>下载链接</strong>：<a href="https://pan.huang1111.cn/s/zM3jgtM">Huang1111网盘</a><br><strong>分享密码</strong>：IE11</p>
+</blockquote>
+<p>我们提供以下三个文件：</p>
+<table>
+<thead>
+<tr>
+<th>文件名</th>
+<th>版本</th>
+<th>大小</th>
+<th>语言</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>EIE11_ZH-CN_MCM_WIN764.EXE</td>
+<td>11.0.0.9</td>
+<td>58.4 MB</td>
+<td>简体中文</td>
+</tr>
+<tr>
+<td>IE11-Windows6.1-LanguagePack-x64-zh-cn.msu</td>
+<td>-</td>
+<td>1.55 MB</td>
+<td>简体中文语言包</td>
+</tr>
+<tr>
+<td>ie11-windows6.1-x64-en-us_ddec9ddc…exe</td>
+<td>11.00.9600.16428</td>
+<td>53.3 MB</td>
+<td>英语（美国）</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="哈希信息"><a href="#哈希信息" class="headerlink" title="哈希信息"></a>哈希信息</h1><h3 id="📄-EIE11-ZH-CN-MCM-WIN764-EXE"><a href="#📄-EIE11-ZH-CN-MCM-WIN764-EXE" class="headerlink" title="📄 EIE11_ZH-CN_MCM_WIN764.EXE"></a>📄 EIE11_ZH-CN_MCM_WIN764.EXE</h3><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>文件大小</strong></td>
+<td>60,394,888 字节</td>
+</tr>
+<tr>
+<td><strong>文件版本</strong></td>
+<td>11.0.0.9</td>
+</tr>
+<tr>
+<td><strong>MD5</strong></td>
+<td><code>BA6228CF5B63EDC04CD2A190A439D081</code></td>
+</tr>
+<tr>
+<td><strong>SHA1</strong></td>
+<td><code>27FE6658248DF067B7EA1F10F3AF550234A698F6</code></td>
+</tr>
+<tr>
+<td><strong>CRC32</strong></td>
+<td><code>9F9165C8</code></td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="📄-IE11-Windows6-1-LanguagePack-x64-zh-cn-msu"><a href="#📄-IE11-Windows6-1-LanguagePack-x64-zh-cn-msu" class="headerlink" title="📄 IE11-Windows6.1-LanguagePack-x64-zh-cn.msu"></a>📄 IE11-Windows6.1-LanguagePack-x64-zh-cn.msu</h3><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>文件大小</strong></td>
+<td>1,622,976 字节</td>
+</tr>
+<tr>
+<td><strong>MD5</strong></td>
+<td><code>5DE3870572B911BBA93BD6AF04529373</code></td>
+</tr>
+<tr>
+<td><strong>SHA1</strong></td>
+<td><code>75C940B7A48ED0A10A16A58299DBAF3DDE4825AE</code></td>
+</tr>
+<tr>
+<td><strong>CRC32</strong></td>
+<td><code>D9019054</code></td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="📄-ie11-windows6-1-x64-en-us-ddec9ddc256ffa7d97831af148f6cc45130c6857-exe"><a href="#📄-ie11-windows6-1-x64-en-us-ddec9ddc256ffa7d97831af148f6cc45130c6857-exe" class="headerlink" title="📄 ie11-windows6.1-x64-en-us_ddec9ddc256ffa7d97831af148f6cc45130c6857.exe"></a>📄 ie11-windows6.1-x64-en-us_ddec9ddc256ffa7d97831af148f6cc45130c6857.exe</h3><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>文件大小</strong></td>
+<td>55,915,216 字节</td>
+</tr>
+<tr>
+<td><strong>文件版本</strong></td>
+<td>11.00.9600.16428 (winblue_gdr.131013-1700)</td>
+</tr>
+<tr>
+<td><strong>MD5</strong></td>
+<td><code>839A1A4D5043D694CD324C33937E00AE</code></td>
+</tr>
+<tr>
+<td><strong>SHA1</strong></td>
+<td><code>DDEC9DDC256FFA7D97831AF148F6CC45130C6857</code></td>
+</tr>
+<tr>
+<td><strong>CRC32</strong></td>
+<td><code>B5568FEA</code></td>
+</tr>
+</tbody></table>
+<hr>
+<blockquote>
+<p>📌 <strong>提示</strong>：下载文件后，建议校验哈希值以确保文件完整性。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术回顾</category>
+      </categories>
+      <tags>
+        <tag>浏览器</tag>
+        <tag>IE11</tag>
+        <tag>微软</tag>
+        <tag>Web技术</tag>
+        <tag>技术历史</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2026/02/25/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -353,7 +737,7 @@
 <h3 id="6-4-通知"><a href="#6-4-通知" class="headerlink" title="6.4 通知"></a>6.4 通知</h3><p>我们可能通过服务内的公告、弹窗、电子邮件、短信等方式向您发送通知。通知一经发出，即视为您已收到。</p>
 <h3 id="6-5-联系信息"><a href="#6-5-联系信息" class="headerlink" title="6.5 联系信息"></a>6.5 联系信息</h3><p>如果您对本协议有任何疑问、投诉或建议，或者需要就账号封禁等事宜进行申诉，请通过以下方式与我们联系：</p>
 <ul>
-<li><strong>联系邮箱</strong>：<a href="mailto:&#122;&#x68;&#97;&#x6e;&#103;&#121;&#97;&#x6e;&#x68;&#x61;&#x6e;&#x67;&#48;&#x34;&#50;&#x34;&#x40;&#49;&#x32;&#54;&#46;&#99;&#111;&#109;">zhangyanhang0424@126.com</a></li>
+<li><strong>联系邮箱</strong>：<a href="mailto:&#122;&#x68;&#97;&#110;&#103;&#121;&#97;&#110;&#x68;&#97;&#110;&#103;&#x30;&#x34;&#50;&#x34;&#x40;&#x31;&#x32;&#x36;&#x2e;&#99;&#111;&#109;">zhangyanhang0424@126.com</a></li>
 <li>我们将尽力在合理时间内回复您的请求。</li>
 </ul>
 <hr>
