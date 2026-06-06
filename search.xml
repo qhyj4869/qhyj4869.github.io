@@ -1,156 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2026/02/25/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>Hexo教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解锁 Windows 隐藏潜能：如何开启并优化“卓越性能”电源方案</title>
-    <url>/2026/02/25/Ultimate-Performance/</url>
-    <content><![CDATA[<hr>
-<h2 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h2><p>你是否觉得你的高端电脑在处理大型游戏、4K 视频渲染或复杂代码编译时，偶尔会出现微卡顿？这可能不是硬件不够强，而是 Windows 默认的电源策略在“节能”和“性能”之间选择了妥协。本文将带你深入了解 Windows 隐藏的 <strong>“卓越性能”（Ultimate Performance）</strong> 电源方案，揭秘它与普通“高性能”模式的区别，并提供一步步的开启指南和优化建议。</p>
-<hr>
-<h2 id="1-什么是“卓越性能”模式？"><a href="#1-什么是“卓越性能”模式？" class="headerlink" title="1. 什么是“卓越性能”模式？"></a>1. 什么是“卓越性能”模式？</h2><p><strong>“卓越性能”（Ultimate Performance）</strong> 是微软专为高性能工作站和顶级游戏 PC 设计的一种电源计划。</p>
-<ul>
-<li><strong>核心理念</strong>：它不仅仅是让 CPU 跑得更快，而是旨在<strong>消除微观延迟（Micro-latencies）</strong>。</li>
-<li><strong>工作原理</strong>：<ul>
-<li><strong>拒绝降频</strong>：在“平衡”模式下，CPU 会在空闲时迅速降低频率以省电，当任务来临时再提升频率，这个切换过程会产生微小的延迟。卓越性能模式会让 CPU 核心始终保持在较高频率就绪状态。</li>
-<li><strong>硬件协同</strong>：它不仅管理 CPU，还优化了磁盘、GPU 和其他子系统的电源策略，防止它们进入深度睡眠状态，确保数据流传输的连续性。</li>
-<li><strong>电压优化</strong>：部分资料显示，该模式在维持高频的同时，能更智能地管理电压，从而在提升稳定性的同时减少不必要的发热波动。</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p><strong>冷知识</strong>：该模式最初是为 Windows 10 专业工作站版（Pro for Workstations）设计的，但现在可以通过简单的命令在所有版本的 Windows 10&#x2F;11（包括家庭版）中解锁。</p>
-</blockquote>
-<hr>
-<h2 id="2-“卓越性能”vs“高性能”vs“平衡”：有什么区别？"><a href="#2-“卓越性能”vs“高性能”vs“平衡”：有什么区别？" class="headerlink" title="2. “卓越性能”vs“高性能”vs“平衡”：有什么区别？"></a>2. “卓越性能”vs“高性能”vs“平衡”：有什么区别？</h2><p>很多用户会混淆这三个模式，以下是核心区别对比：</p>
-<table>
-<thead>
-<tr>
-<th align="left">特性</th>
-<th align="left">平衡模式 (Balanced)</th>
-<th align="left">高性能模式 (High Performance)</th>
-<th align="left"><strong>卓越性能模式 (Ultimate Performance)</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>主要目标</strong></td>
-<td align="left">节能与性能的动态平衡</td>
-<td align="left">优先性能，允许少量节能策略</td>
-<td align="left"><strong>极致性能，几乎不考虑节能</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>CPU 频率</strong></td>
-<td align="left">随负载动态大幅波动</td>
-<td align="left">负载高时保持高频，空闲时可能微调</td>
-<td align="left"><strong>始终维持高基准频率，极少降频</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>延迟表现</strong></td>
-<td align="left">正常，可能有瞬间卡顿</td>
-<td align="left">较低</td>
-<td align="left"><strong>最低，消除微观停顿</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>适用场景</strong></td>
-<td align="left">日常办公、笔记本移动使用</td>
-<td align="left">普通游戏、一般重度任务</td>
-<td align="left"><strong>电竞比赛、8K 渲染、科学计算、超频</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>功耗&#x2F;发热</strong></td>
-<td align="left">低</td>
-<td align="left">中高</td>
-<td align="left"><strong>最高（台式机首选，笔记本需注意散热）</strong></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="3-手把手教程：如何开启“卓越性能”模式"><a href="#3-手把手教程：如何开启“卓越性能”模式" class="headerlink" title="3. 手把手教程：如何开启“卓越性能”模式"></a>3. 手把手教程：如何开启“卓越性能”模式</h2><p>由于该模式默认是隐藏的，我们需要通过命令行将其“召唤”出来。</p>
-<h3 id="步骤一：以管理员身份运行终端"><a href="#步骤一：以管理员身份运行终端" class="headerlink" title="步骤一：以管理员身份运行终端"></a>步骤一：以管理员身份运行终端</h3><ol>
-<li>按下键盘上的 <code>Win + X</code> 键。</li>
-<li>在弹出的菜单中选择 <strong>“Windows PowerShell (管理员)”</strong> 或 <strong>“终端 (管理员)”</strong> &#x2F; <strong>“命令提示符 (管理员)”</strong>。</li>
-</ol>
-<h3 id="步骤二：输入解锁命令"><a href="#步骤二：输入解锁命令" class="headerlink" title="步骤二：输入解锁命令"></a>步骤二：输入解锁命令</h3><p>复制以下命令并粘贴到窗口中，然后按回车键执行：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">powercfg <span class="literal">-duplicatescheme</span> e9a42b02<span class="literal">-d5df-448d-aa00-03f14749eb61</span></span><br></pre></td></tr></table></figure>
-
-<p><em>如果成功，系统会提示：“电源方案 GUID: … (卓越性能)”。</em></p>
-<h3 id="步骤三：激活该模式"><a href="#步骤三：激活该模式" class="headerlink" title="步骤三：激活该模式"></a>步骤三：激活该模式</h3><p>有两种方法可以激活：</p>
-<p><strong>方法 A：通过控制面板（推荐，可视化）</strong></p>
-<ol>
-<li>按 <code>Win + R</code>，输入 <code>control</code> 打开控制面板。</li>
-<li>导航至：<strong>硬件和声音</strong> &gt; <strong>电源选项</strong>。</li>
-<li>点击“显示附加计划”，你应该能看到 <strong>“卓越性能”</strong> 选项。</li>
-<li>选中它即可。</li>
-</ol>
-<p><strong>方法 B：通过命令行直接激活</strong><br>在刚才的终端窗口中输入（注意替换为你实际的 GUID，通常上面的命令执行后会显示）：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">powercfg <span class="literal">-setactive</span> &lt;Your GUID&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="步骤四：进阶优化（可选但推荐）"><a href="#步骤四：进阶优化（可选但推荐）" class="headerlink" title="步骤四：进阶优化（可选但推荐）"></a>步骤四：进阶优化（可选但推荐）</h3><p>为了确保万无一失，建议检查以下设置：</p>
-<ol>
-<li>在“电源选项”中，点击当前计划旁的 <strong>“更改计划设置”</strong>。</li>
-<li>点击 <strong>“更改高级电源设置”</strong>。</li>
-<li>找到 <strong>“处理器电源管理”</strong>：<ul>
-<li><strong>最小处理器状态</strong>：建议设置为 <strong>100%</strong>（这将强制 CPU 永不降频）。</li>
-<li><strong>最大处理器状态</strong>：保持 <strong>100%</strong>。</li>
-</ul>
-</li>
-<li>找到 <strong>“硬盘”</strong> &gt; <strong>“在此时间后关闭硬盘”</strong>：设置为 <strong>0</strong>（即“从不”），防止硬盘休眠导致加载卡顿。</li>
-</ol>
-<hr>
-<h2 id="4-真的有必要开启吗？（优缺点分析）"><a href="#4-真的有必要开启吗？（优缺点分析）" class="headerlink" title="4. 真的有必要开启吗？（优缺点分析）"></a>4. 真的有必要开启吗？（优缺点分析）</h2><p>在决定长期使用前，请权衡利弊：</p>
-<h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul>
-<li><strong>帧率更稳</strong>：在竞技类游戏中，最低帧（1% Low FPS）会有所提升，减少突然的掉帧感。</li>
-<li><strong>响应更快</strong>：大型软件（如 Premiere, Blender, VS Code）的启动和交互更加丝滑。</li>
-<li><strong>后台不卡顿</strong>：即使在全屏游戏时，后台的下载或录音任务也不会因为系统调度而受阻。</li>
-</ul>
-<h3 id="缺点与风险"><a href="#缺点与风险" class="headerlink" title="缺点与风险"></a>缺点与风险</h3><ul>
-<li><strong>功耗增加</strong>：对于台式机，电费可能会微涨；对于<strong>笔记本电脑</strong>，电池续航将<strong>大幅缩水</strong>（可能从 5 小时降至 1 小时甚至更少）。</li>
-<li><strong>发热量上升</strong>：CPU 长期高频运行会导致温度升高，如果散热器不佳，可能会触发过热降频，反而适得其反。</li>
-<li><strong>边际效应</strong>：对于仅用于浏览网页、看视频或轻度办公的用户，<strong>几乎感觉不到区别</strong>，属于“杀鸡用牛刀”。</li>
-</ul>
-<hr>
-<h2 id="5-常见问题解答-FAQ"><a href="#5-常见问题解答-FAQ" class="headerlink" title="5. 常见问题解答 (FAQ)"></a>5. 常见问题解答 (FAQ)</h2><p><strong>Q: 我是笔记本电脑用户，建议开启吗？</strong><br>A: <strong>插电使用时推荐开启</strong>，尤其是进行游戏或渲染时。但在使用电池时，请务必切回“平衡”模式，否则电量会像流水一样消失。</p>
-<p><strong>Q: 开启后电脑变卡了怎么办？</strong><br>A: 这通常是因为散热跟不上导致的热节流（Thermal Throttling）。请检查灰尘是否过多，硅脂是否需要更换，或者暂时改回“高性能”模式。</p>
-<p><strong>Q: 这个模式会损坏硬件吗？</strong><br>A: 不会。它只是改变了系统的调度策略，并没有进行超频（Overclocking）。只要你的散热系统正常工作，硬件就在安全范围内运行。</p>
-<p><strong>Q: 如何恢复默认（删除该方案）？</strong><br>A: 再次以管理员身份运行终端，输入：<br><code>powercfg -delete e9a42b02-d5df-448d-aa00-03f14749eb61</code></p>
-<hr>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>Windows 的“卓越性能”模式是一把双刃剑，用对了场景，它能让你的昂贵硬件物尽其用，带来行云流水的操作体验；用错了场景，它只会徒增噪音和电费。</p>
-<p>如果你是一名追求极致的玩家或创作者，不妨花 1 分钟尝试开启它，亲自感受那份“指哪打哪”的流畅感吧！</p>
-]]></content>
-      <categories>
-        <category>系统优化</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>性能优化</tag>
-        <tag>电源管理</tag>
-        <tag>游戏加速</tag>
-        <tag>工作站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Internet Explorer 11：一个时代的终结与传承</title>
     <url>/2026/06/06/IE11/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>Internet Explorer 11（简称IE11）作为微软IE系列浏览器的<strong>最后一个主要版本</strong>，于2013年10月17日随Windows 8.1正式发布，随后于11月7日发布给Windows 7和Windows Server 2008 R2用户。</p>
@@ -535,6 +385,131 @@
       </tags>
   </entry>
   <entry>
+    <title>解锁 Windows 隐藏潜能：如何开启并优化“卓越性能”电源方案</title>
+    <url>/2026/02/25/Ultimate-Performance/</url>
+    <content><![CDATA[<hr>
+<h2 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h2><p>你是否觉得你的高端电脑在处理大型游戏、4K 视频渲染或复杂代码编译时，偶尔会出现微卡顿？这可能不是硬件不够强，而是 Windows 默认的电源策略在“节能”和“性能”之间选择了妥协。本文将带你深入了解 Windows 隐藏的 <strong>“卓越性能”（Ultimate Performance）</strong> 电源方案，揭秘它与普通“高性能”模式的区别，并提供一步步的开启指南和优化建议。</p>
+<hr>
+<h2 id="1-什么是“卓越性能”模式？"><a href="#1-什么是“卓越性能”模式？" class="headerlink" title="1. 什么是“卓越性能”模式？"></a>1. 什么是“卓越性能”模式？</h2><p><strong>“卓越性能”（Ultimate Performance）</strong> 是微软专为高性能工作站和顶级游戏 PC 设计的一种电源计划。</p>
+<ul>
+<li><strong>核心理念</strong>：它不仅仅是让 CPU 跑得更快，而是旨在<strong>消除微观延迟（Micro-latencies）</strong>。</li>
+<li><strong>工作原理</strong>：<ul>
+<li><strong>拒绝降频</strong>：在“平衡”模式下，CPU 会在空闲时迅速降低频率以省电，当任务来临时再提升频率，这个切换过程会产生微小的延迟。卓越性能模式会让 CPU 核心始终保持在较高频率就绪状态。</li>
+<li><strong>硬件协同</strong>：它不仅管理 CPU，还优化了磁盘、GPU 和其他子系统的电源策略，防止它们进入深度睡眠状态，确保数据流传输的连续性。</li>
+<li><strong>电压优化</strong>：部分资料显示，该模式在维持高频的同时，能更智能地管理电压，从而在提升稳定性的同时减少不必要的发热波动。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>冷知识</strong>：该模式最初是为 Windows 10 专业工作站版（Pro for Workstations）设计的，但现在可以通过简单的命令在所有版本的 Windows 10&#x2F;11（包括家庭版）中解锁。</p>
+</blockquote>
+<hr>
+<h2 id="2-“卓越性能”vs“高性能”vs“平衡”：有什么区别？"><a href="#2-“卓越性能”vs“高性能”vs“平衡”：有什么区别？" class="headerlink" title="2. “卓越性能”vs“高性能”vs“平衡”：有什么区别？"></a>2. “卓越性能”vs“高性能”vs“平衡”：有什么区别？</h2><p>很多用户会混淆这三个模式，以下是核心区别对比：</p>
+<table>
+<thead>
+<tr>
+<th align="left">特性</th>
+<th align="left">平衡模式 (Balanced)</th>
+<th align="left">高性能模式 (High Performance)</th>
+<th align="left"><strong>卓越性能模式 (Ultimate Performance)</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>主要目标</strong></td>
+<td align="left">节能与性能的动态平衡</td>
+<td align="left">优先性能，允许少量节能策略</td>
+<td align="left"><strong>极致性能，几乎不考虑节能</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>CPU 频率</strong></td>
+<td align="left">随负载动态大幅波动</td>
+<td align="left">负载高时保持高频，空闲时可能微调</td>
+<td align="left"><strong>始终维持高基准频率，极少降频</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>延迟表现</strong></td>
+<td align="left">正常，可能有瞬间卡顿</td>
+<td align="left">较低</td>
+<td align="left"><strong>最低，消除微观停顿</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>适用场景</strong></td>
+<td align="left">日常办公、笔记本移动使用</td>
+<td align="left">普通游戏、一般重度任务</td>
+<td align="left"><strong>电竞比赛、8K 渲染、科学计算、超频</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>功耗&#x2F;发热</strong></td>
+<td align="left">低</td>
+<td align="left">中高</td>
+<td align="left"><strong>最高（台式机首选，笔记本需注意散热）</strong></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="3-手把手教程：如何开启“卓越性能”模式"><a href="#3-手把手教程：如何开启“卓越性能”模式" class="headerlink" title="3. 手把手教程：如何开启“卓越性能”模式"></a>3. 手把手教程：如何开启“卓越性能”模式</h2><p>由于该模式默认是隐藏的，我们需要通过命令行将其“召唤”出来。</p>
+<h3 id="步骤一：以管理员身份运行终端"><a href="#步骤一：以管理员身份运行终端" class="headerlink" title="步骤一：以管理员身份运行终端"></a>步骤一：以管理员身份运行终端</h3><ol>
+<li>按下键盘上的 <code>Win + X</code> 键。</li>
+<li>在弹出的菜单中选择 <strong>“Windows PowerShell (管理员)”</strong> 或 <strong>“终端 (管理员)”</strong> &#x2F; <strong>“命令提示符 (管理员)”</strong>。</li>
+</ol>
+<h3 id="步骤二：输入解锁命令"><a href="#步骤二：输入解锁命令" class="headerlink" title="步骤二：输入解锁命令"></a>步骤二：输入解锁命令</h3><p>复制以下命令并粘贴到窗口中，然后按回车键执行：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">powercfg <span class="literal">-duplicatescheme</span> e9a42b02<span class="literal">-d5df-448d-aa00-03f14749eb61</span></span><br></pre></td></tr></table></figure>
+
+<p><em>如果成功，系统会提示：“电源方案 GUID: … (卓越性能)”。</em></p>
+<h3 id="步骤三：激活该模式"><a href="#步骤三：激活该模式" class="headerlink" title="步骤三：激活该模式"></a>步骤三：激活该模式</h3><p>有两种方法可以激活：</p>
+<p><strong>方法 A：通过控制面板（推荐，可视化）</strong></p>
+<ol>
+<li>按 <code>Win + R</code>，输入 <code>control</code> 打开控制面板。</li>
+<li>导航至：<strong>硬件和声音</strong> &gt; <strong>电源选项</strong>。</li>
+<li>点击“显示附加计划”，你应该能看到 <strong>“卓越性能”</strong> 选项。</li>
+<li>选中它即可。</li>
+</ol>
+<p><strong>方法 B：通过命令行直接激活</strong><br>在刚才的终端窗口中输入（注意替换为你实际的 GUID，通常上面的命令执行后会显示）：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">powercfg <span class="literal">-setactive</span> &lt;Your GUID&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="步骤四：进阶优化（可选但推荐）"><a href="#步骤四：进阶优化（可选但推荐）" class="headerlink" title="步骤四：进阶优化（可选但推荐）"></a>步骤四：进阶优化（可选但推荐）</h3><p>为了确保万无一失，建议检查以下设置：</p>
+<ol>
+<li>在“电源选项”中，点击当前计划旁的 <strong>“更改计划设置”</strong>。</li>
+<li>点击 <strong>“更改高级电源设置”</strong>。</li>
+<li>找到 <strong>“处理器电源管理”</strong>：<ul>
+<li><strong>最小处理器状态</strong>：建议设置为 <strong>100%</strong>（这将强制 CPU 永不降频）。</li>
+<li><strong>最大处理器状态</strong>：保持 <strong>100%</strong>。</li>
+</ul>
+</li>
+<li>找到 <strong>“硬盘”</strong> &gt; <strong>“在此时间后关闭硬盘”</strong>：设置为 <strong>0</strong>（即“从不”），防止硬盘休眠导致加载卡顿。</li>
+</ol>
+<hr>
+<h2 id="4-真的有必要开启吗？（优缺点分析）"><a href="#4-真的有必要开启吗？（优缺点分析）" class="headerlink" title="4. 真的有必要开启吗？（优缺点分析）"></a>4. 真的有必要开启吗？（优缺点分析）</h2><p>在决定长期使用前，请权衡利弊：</p>
+<h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul>
+<li><strong>帧率更稳</strong>：在竞技类游戏中，最低帧（1% Low FPS）会有所提升，减少突然的掉帧感。</li>
+<li><strong>响应更快</strong>：大型软件（如 Premiere, Blender, VS Code）的启动和交互更加丝滑。</li>
+<li><strong>后台不卡顿</strong>：即使在全屏游戏时，后台的下载或录音任务也不会因为系统调度而受阻。</li>
+</ul>
+<h3 id="缺点与风险"><a href="#缺点与风险" class="headerlink" title="缺点与风险"></a>缺点与风险</h3><ul>
+<li><strong>功耗增加</strong>：对于台式机，电费可能会微涨；对于<strong>笔记本电脑</strong>，电池续航将<strong>大幅缩水</strong>（可能从 5 小时降至 1 小时甚至更少）。</li>
+<li><strong>发热量上升</strong>：CPU 长期高频运行会导致温度升高，如果散热器不佳，可能会触发过热降频，反而适得其反。</li>
+<li><strong>边际效应</strong>：对于仅用于浏览网页、看视频或轻度办公的用户，<strong>几乎感觉不到区别</strong>，属于“杀鸡用牛刀”。</li>
+</ul>
+<hr>
+<h2 id="5-常见问题解答-FAQ"><a href="#5-常见问题解答-FAQ" class="headerlink" title="5. 常见问题解答 (FAQ)"></a>5. 常见问题解答 (FAQ)</h2><p><strong>Q: 我是笔记本电脑用户，建议开启吗？</strong><br>A: <strong>插电使用时推荐开启</strong>，尤其是进行游戏或渲染时。但在使用电池时，请务必切回“平衡”模式，否则电量会像流水一样消失。</p>
+<p><strong>Q: 开启后电脑变卡了怎么办？</strong><br>A: 这通常是因为散热跟不上导致的热节流（Thermal Throttling）。请检查灰尘是否过多，硅脂是否需要更换，或者暂时改回“高性能”模式。</p>
+<p><strong>Q: 这个模式会损坏硬件吗？</strong><br>A: 不会。它只是改变了系统的调度策略，并没有进行超频（Overclocking）。只要你的散热系统正常工作，硬件就在安全范围内运行。</p>
+<p><strong>Q: 如何恢复默认（删除该方案）？</strong><br>A: 再次以管理员身份运行终端，输入：<br><code>powercfg -delete e9a42b02-d5df-448d-aa00-03f14749eb61</code></p>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>Windows 的“卓越性能”模式是一把双刃剑，用对了场景，它能让你的昂贵硬件物尽其用，带来行云流水的操作体验；用错了场景，它只会徒增噪音和电费。</p>
+<p>如果你是一名追求极致的玩家或创作者，不妨花 1 分钟尝试开启它，亲自感受那份“指哪打哪”的流畅感吧！</p>
+]]></content>
+      <categories>
+        <category>系统优化</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>性能优化</tag>
+        <tag>电源管理</tag>
+        <tag>游戏加速</tag>
+        <tag>工作站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ShowCloudDisk 服务协议</title>
     <url>/2026/06/05/SCD-Service-Agreement/</url>
     <content><![CDATA[<h1 id="ShowCloudDisk-官网地址：https-clouddisk-of-cd"><a href="#ShowCloudDisk-官网地址：https-clouddisk-of-cd" class="headerlink" title="ShowCloudDisk 官网地址：https://clouddisk.of.cd/"></a>ShowCloudDisk 官网地址：<a href="https://clouddisk.of.cd/">https://clouddisk.of.cd/</a></h1><table>
@@ -737,7 +712,7 @@
 <h3 id="6-4-通知"><a href="#6-4-通知" class="headerlink" title="6.4 通知"></a>6.4 通知</h3><p>我们可能通过服务内的公告、弹窗、电子邮件、短信等方式向您发送通知。通知一经发出，即视为您已收到。</p>
 <h3 id="6-5-联系信息"><a href="#6-5-联系信息" class="headerlink" title="6.5 联系信息"></a>6.5 联系信息</h3><p>如果您对本协议有任何疑问、投诉或建议，或者需要就账号封禁等事宜进行申诉，请通过以下方式与我们联系：</p>
 <ul>
-<li><strong>联系邮箱</strong>：<a href="mailto:&#122;&#x68;&#97;&#110;&#103;&#121;&#97;&#x6e;&#104;&#97;&#110;&#103;&#48;&#52;&#50;&#x34;&#64;&#49;&#x32;&#x36;&#x2e;&#x63;&#x6f;&#x6d;">zhangyanhang0424@126.com</a></li>
+<li><strong>联系邮箱</strong>：<a href="mailto:&#x7a;&#104;&#97;&#110;&#x67;&#121;&#97;&#x6e;&#x68;&#97;&#x6e;&#x67;&#x30;&#52;&#x32;&#x34;&#x40;&#49;&#x32;&#x36;&#46;&#99;&#x6f;&#109;">zhangyanhang0424@126.com</a></li>
 <li>我们将尽力在合理时间内回复您的请求。</li>
 </ul>
 <hr>
@@ -763,6 +738,31 @@
       <tags>
         <tag>ShowCloudDisk</tag>
         <tag>服务协议</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2026/02/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Hexo教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
 </search>
